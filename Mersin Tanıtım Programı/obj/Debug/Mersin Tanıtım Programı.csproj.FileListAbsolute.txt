@@ -1,0 +1,26 @@
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\bin\Debug\Mersin Tanıtım Programı.exe.config
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\bin\Debug\Mersin Tanıtım Programı.exe
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\bin\Debug\Mersin Tanıtım Programı.pdb
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin Tanıtım Programı.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin_Tanıtım_Programı.Properties.Resources.resources
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin Tanıtım Programı.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin Tanıtım Programı.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin Tanıtım Programı.exe
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin Tanıtım Programı.pdb
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin_Tanıtım_Programı.uygulamaGiriş.resources
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin_Tanıtım_Programı.Hakkında.resources
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin_Tanıtım_Programı.girişYapvekayıtOl.resources
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin_Tanıtım_Programı.AnaEkran.resources
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin_Tanıtım_Programı.Yemekler.resources
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin_Tanıtım_Programı.YemeklerSon.resources
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin_Tanıtım_Programı.YöreselŞarkılar.resources
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin_Tanıtım_Programı.ŞehirHaritası.resources
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin_Tanıtım_Programı.OtobüsGüzergahları.resources
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin_Tanıtım_Programı.OtobüsGüzergahlarıSon.resources
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin_Tanıtım_Programı.Turistlik_Yerler.resources
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\bin\Debug\Interop.WMPLib.dll
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Interop.WMPLib.dll
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin Tanıtım Programı.csproj.ResolveComReference.cache
+C:\Users\hp\source\repos\Mersin Tanıtım Programı\Mersin Tanıtım Programı\obj\Debug\Mersin_Tanıtım_Programı.Radyo.resources

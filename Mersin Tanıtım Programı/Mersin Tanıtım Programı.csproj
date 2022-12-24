@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2B5D179-2605-4724-98D3-398C4664D0BC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Mersin_Tanıtım_Programı</RootNamespace>
+    <AssemblyName>Mersin Tanıtım Programı</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>appIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaEkran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaEkran.Designer.cs">
+      <DependentUpon>AnaEkran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="girişYapvekayıtOl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="girişYapvekayıtOl.Designer.cs">
+      <DependentUpon>girişYapvekayıtOl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtobüsGüzergahları.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtobüsGüzergahları.Designer.cs">
+      <DependentUpon>OtobüsGüzergahları.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtobüsGüzergahlarıSon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtobüsGüzergahlarıSon.Designer.cs">
+      <DependentUpon>OtobüsGüzergahlarıSon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Radyo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Radyo.Designer.cs">
+      <DependentUpon>Radyo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Turistlik Yerler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Turistlik Yerler.Designer.cs">
+      <DependentUpon>Turistlik Yerler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uygulamaGiriş.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uygulamaGiriş.Designer.cs">
+      <DependentUpon>uygulamaGiriş.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hakkında.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hakkında.Designer.cs">
+      <DependentUpon>Hakkında.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Yemekler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yemekler.Designer.cs">
+      <DependentUpon>Yemekler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YemeklerSon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YemeklerSon.Designer.cs">
+      <DependentUpon>YemeklerSon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YöreselŞarkılar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YöreselŞarkılar.Designer.cs">
+      <DependentUpon>YöreselŞarkılar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ŞehirHaritası.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ŞehirHaritası.Designer.cs">
+      <DependentUpon>ŞehirHaritası.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AnaEkran.resx">
+      <DependentUpon>AnaEkran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="girişYapvekayıtOl.resx">
+      <DependentUpon>girişYapvekayıtOl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hakkında.resx">
+      <DependentUpon>Hakkında.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtobüsGüzergahları.resx">
+      <DependentUpon>OtobüsGüzergahları.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtobüsGüzergahlarıSon.resx">
+      <DependentUpon>OtobüsGüzergahlarıSon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Radyo.resx">
+      <DependentUpon>Radyo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Turistlik Yerler.resx">
+      <DependentUpon>Turistlik Yerler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uygulamaGiriş.resx">
+      <DependentUpon>uygulamaGiriş.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Yemekler.resx">
+      <DependentUpon>Yemekler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YemeklerSon.resx">
+      <DependentUpon>YemeklerSon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YöreselŞarkılar.resx">
+      <DependentUpon>YöreselŞarkılar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ŞehirHaritası.resx">
+      <DependentUpon>ŞehirHaritası.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="appIcon.ico" />
+    <Content Include="Resimler\1024px-Gtk-quit.svg-removebg-preview.png" />
+    <Content Include="Resimler\18-turkiye_mersin.png" />
+    <Content Include="Resimler\appIcon.ico" />
+    <Content Include="Resimler\back-removebg-preview.png" />
+    <Content Include="Resimler\cf608ab5deafb9a9753a58fd40d7b12c-removebg-preview.png" />
+    <Content Include="Resimler\download-removebg-preview-removebg-preview.png" />
+    <Content Include="Resimler\download-removebg-preview.png" />
+    <Content Include="Resimler\images-removebg-preview.png" />
+    <Content Include="Resimler\indir1.jfif" />
+    <Content Include="Resimler\indir2.jfif" />
+    <Content Include="Resimler\indir3.jfif" />
+    <Content Include="Resimler\indir4.jfif" />
+    <Content Include="Resimler\indir5.jfif" />
+    <Content Include="Resimler\indir-removebg-preview.png" />
+    <Content Include="Resimler\indir-removebg-previeww.png" />
+    <Content Include="Resimler\indir-removebg-previewwww.png" />
+    <Content Include="Resimler\indir.jfif" />
+    <Content Include="Otobüs Durakları\3432329.jpg" />
+    <Content Include="Otobüs Durakları\3432331.jpg" />
+    <Content Include="Otobüs Durakları\3432333.jpg" />
+    <Content Include="Otobüs Durakları\3432334.jpg" />
+    <Content Include="Otobüs Durakları\3617728.jpg" />
+    <Content Include="Otobüs Durakları\3617730.jpg" />
+    <Content Include="Otobüs Durakları\3617739.jpg" />
+    <Content Include="Otobüs Durakları\3617743.jpg" />
+    <Content Include="Otobüs Durakları\5587350.jpg" />
+    <Content Include="Otobüs Durakları\5587352.jpg" />
+    <Content Include="Otobüs Durakları\5999575.jpg" />
+    <Content Include="Otobüs Durakları\6008957.jpg" />
+    <Content Include="Resimler\simge.png" />
+    <Content Include="Resimler\uye-giris-removebg-preview.png" />
+    <Content Include="Resimler\yeni-uye-aktivasyon-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
